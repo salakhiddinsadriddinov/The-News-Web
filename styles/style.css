@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    min-width: 320px;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav-list {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.picture {
+    width: 100%;
+}
+
+.img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header__nav-list_item a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+
+.header__nav-list_item a:hover {
+    color: #EF4423;
+}
+
+.containers {
+    max-width: 1430px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.presidents {
+    display: flex;
+}
+
+.box {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.red {
+    background: #B71C1C;
+}
+
+.text {
+    padding: 10px 15px 15px;
+    text-align: left;
+}
+
+.info {
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.little {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+    color: #EBEBEB;
+}
+
+.purple {
+    background: #6A1B9A;
+}
+
+.blue {
+    background: #303F9F;
+}
+
+.green {
+    background: #00695C;
+}
+
+.image {
+    width: 100%;
+}
+
+.news__title {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.important {
+    background: #EDEDED;
+}
+
+.flex__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+
+.explanation {
+    text-align: left;
+}
+
+.first {
+    font-size: 22px;
+    font-weight: 700;
+    color: #3A3838;
+    margin-bottom: 30px;
+}
+
+.gadgets {
+    font-size: 18px;
+    font-weight: 400;
+    color: #686868;
+}
+
+.footer {
+    background: #3A3838;
+    padding: 20px 0;
+}
+
+.footer__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__nav-list {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer__nav-list_item a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.footer__nav-list_item a:hover {
+    color: #EF4423;
+}
